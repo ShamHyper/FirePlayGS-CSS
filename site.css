@@ -1,0 +1,484 @@
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #ffffff;
+    background: #292929;
+  font-size: 20px;
+  background-image: url(https://i.imgur.com/jJiQ3SE.png);
+}
+.nav>li>a {
+    color: #ffffff;
+    background-color: #292929;
+}
+.navbar-header>a:before {
+    content: '\f101';
+    font-family: FontAwesome;
+    margin-right: 6px;
+    color: #ff0000;
+}
+.xbox__body {
+  background: #49494936;
+    padding: 20px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.header-image {
+    width: 100%;
+}
+.navbar .nav>li>a {
+    color: white;
+    font-size: 18px;
+}
+.navbar {
+    border-radius: 15px;
+}
+.gs-loader {
+    background-color: #2b2b2b00;
+}
+.xbox {
+    background: rgba(212, 186, 173, 0);
+    color: white;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 5px;
+  color: white;
+}
+.xbox__header {
+    border-radius: 30px 30px 0 0;
+}
+.xbox__footer {
+    border-radius: 0 0 30px 30px;
+   padding: 3em;
+}
+.btn-default, .btn-default:focus, .btn-default:hover {
+border-radius: 15px;
+color: white;
+background: #41414140;
+}
+
+.product__image {
+    background: #31353170;
+    padding: 7%;
+}
+#body_button{
+  margin: 0;
+  padding: 0;
+  color: none;
+  background-color: none;
+  text-align: center;
+  padding-top: 1vh;
+}
+.button_hola,
+.button_hola::before,
+.button_hola::after,
+.button_hola span,
+.button_hola span::before,
+.button_hola span::after
+{
+  transition: all ease .5s;
+
+}
+ 
+.button_hola{
+  position: relative;
+  display: inline-block;
+  padding: 0.3em;
+  margin: 1em;
+  border: solid 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+ 
+.button_hola:hover
+{
+  box-shadow: 0 0 5em .5em #FF0000;
+}
+ 
+.button_hola span
+{
+  display: inline-block;
+  width: 100%;
+  padding: 0.6em 2em;
+}
+ 
+.button_hola:hover span
+{
+  background-color: none;
+  color: none;
+}
+ 
+.button_hola::before,
+.button_hola::after,
+.button_hola span::before,
+.button_hola span::after
+{
+  content: '';
+  position: absolute;
+  border: 1px;
+}
+ 
+.button_hola::before,
+.button_hola span::before
+{
+  border-style: solid none;  
+}
+ 
+.button_hola::before,
+.button_hola span::after{      
+  left: 0;
+  top: -0.4em;
+  width: 100%; 
+  height: calc(100% + 0.8em);
+}
+ 
+.button_hola::after,
+.button_hola span::after
+{
+  border-style: none solid; 
+}
+ 
+.button_hola::after,
+.button_hola span::before
+{
+  top: 0;
+  left: -0.4em;
+  height: 100%;
+  width: calc(100% + 0.8em); 
+}
+ 
+.button_hola:hover::after,
+.button_hola:hover span::after
+{
+  transform: scaleY(0);
+
+}
+ 
+.button_hola:hover::before,
+.button_hola:hover span::before
+{
+  transform: scaleX(0);
+
+}
+ 
+.button_hola:hover span::after,
+.button_hola:hover span::before
+{
+  opacity: 0;
+}
+.product {
+background : rgb(0, 0, 0, 0.0);
+border-radius : 10px;
+transition : all 0.2s;
+}
+.product:hover {
+background : rgb(0, 0, 0, 0.0);
+transform : scale3d(1.2,1.2,1.2);
+box-shadow : 0 0 40px 0 #FF0000;
+}
+.product .product__name {
+display: block;
+font-size : 14px;
+text-align : center;
+text-shadow : 0 0 8px #000;
+transition : all 0.4s;
+}
+.product:hover .product__name {
+opacity : 1;
+background : rgb(0 0 0 / 50%);
+padding : 1px 10px;
+}
+.product__image {
+padding: 0;
+width: 100%;
+}
+.product__quantity {
+position: absolute;
+right: 4px;
+bottom: 4px;
+color: hsla(0, 0%, 100%, .9);
+background: rgba(0, 0, 0, .2);
+padding: 0 4px;
+border-radius: 3px;
+font-size: 14px;
+opacity: 1;
+-webkit-transition: opacity .4s;
+transition: opacity .4s;
+z-index: 10;
+}
+.product .product__discount {
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    transform: rotate(45deg) translateY(-30%) translateX(25%);
+    padding: 0 20%;
+background : linear-gradient(to right, #FF0000 0%, #FF0000 100%);
+}
+
+* {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+.isbp {
+    background-image: url(https://gamestores.ru/img/games/rust/blueprintbase.png);
+    background-size: cover;
+}
+.form-control {
+    background-color: #41414140;
+    color: white;
+}
+.product {
+    background: #ffffff00;
+    border: 1px solid #ffffff00;
+}
+.modal-sm {
+    width: 330px;
+}
+.modal .modal-header {
+    background: #282828b8;
+    border-bottom: 1px solid #292929;
+    background-image: url(https://gamestores.pictures/images/2018/07/17/DbAOR.jpg);
+}
+.panel-default {
+    border-color: #ddd0;
+    border-radius: 25px;
+}
+.panel-body {
+    padding: 15px;
+    background-color: blueviolet;
+}
+
+.xbox_monitoring h4::before {
+    font: normal normal normal 20px FontAwesome;
+    margin-right: 23px;
+}
+before {
+    box-sizing: border-box;
+}
+.xbox .xbox__header h4 {
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #333;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.xbox__header h4 {
+    margin: 0;
+    line-height: 100%;
+    font-size: 17px;
+    font-weight: 400;
+}
+.h4, h4 {
+    font-size: 18px;
+}
+.xbox_store h4::before, .xbox_queue h4::before, .xbox_purchases h4::before {
+    font: normal normal normal 24px FontAwesome;
+    content: "\f07a ";
+    margin-right: 6px;
+}
+:after, :before {
+    /* box-sizing: border-box; */
+}
+.product__discount {
+    background: #FFF;
+    color: #FFF;
+    text-shadow: 0px 0px 5px #08c;
+    transform: rotate(45deg) translateY(-30%) translateX(25%);
+    padding: 0 20%;
+}
+.change-language {display: none;
+}
+element.style {
+}
+.btn-default.active, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active, .btn-default:active:focus, .btn-default:active:hover {
+    color: #fff;
+    background: #FF0000db;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    border: 1px solid #292929;
+}
+.input-group-addon {
+    background: #222023;
+    border: 1px solid #322f2f69;
+    color: #fff;
+}
+.progress-bar-danger, .progress-bar-success {
+    background-color: #ff0000;
+}
+.btn-success {
+    color: #fff;
+    background-color: #FF0000db;
+    border-color: #FF0000db;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+.dropdown-menu {
+    background: #282828;
+}
+audio {
+  width: 215px;
+  height: 54px;
+  float: center;
+}
+.btn-success-menu{color: #fff;background-color: #ff9100;border-color:#ff9100}
+.btn-secondary-menu{color:#fff;background-color:#ff9100;border-color:#ff9100}
+.btn-secondary-menu:hover{box-shadow: 0 0 2px 2px #292525}
+.btn-success-menu:hover{box-shadow: 0 0 2px 2px #292525}
+.modalContent {
+	position: fixed;
+	display: none;
+}
+.modalContent:target {
+	display: block;
+	pointer-events: auto;
+}
+
+.modalContent > div {
+	position: relative;
+	margin: 100% auto;
+}
+ body, .wrapper {
+  background: #000 url('https://s9.wampi.ru/2020/02/11/44441.jpg') top center fixed;
+  background-size: cover;
+}
+  .store-categories:before{display:block;content:"Добро пожаловать!";margin-bottom:16px;padding:16px;text-align:center;text-transform:uppercase;font-size:25px;color:#ffffff;background:rgba(255, 0, 0, 0.5);border-radius:4px;animation: pulsate 1s linear infinite;}
+
+  .xbox__header { 
+text-align: -webkit-center; 
+}
+.xbox_custom_money {
+ text-align: center;
+}
+
+.xbox
+{-moz-box-shadow:0 0 5px #8B0000;
+  -webkit-box-shadow:0 0 5px #8B0000;
+  box-shadow:0 0 5px #8B0000;
+  border-radius:30px
+}
+.xbox_custom_money
+{-webkit-box-shadow:none;
+  box-shadow:none;
+  text-align:center}
+@-webkit-keyframes scale-up {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+  }
+}
+.gs-loader .gs-loader-inner .spi:before {
+    border: none !important;
+}
+.gs-loader .gs-loader-inner .spi:after {
+    background-color: transparent;
+}
+select option {
+    background: #262423;
+}
+
+.nav>li>a:focus,.navbar .nav>li>a:hover{background-color:#232121;color:#f1f1f1}
+.nav>li>a:focus,.navbar .nav>li>a:focus{background-color:#b81717;color:#f1f1f1}
+
+
+.product__price {
+	background: rgba(255, 255, 255, 0);
+	font-size: 13px;
+	font-weight: 800;
+	color: #fff;
+	text-shadow: 1px 1px 0px #000
+    
+}
+@-webkit-keyframes ItemHover {
+	0% {
+		transform: scale(1)
+	}
+	50% {
+		transform: scale(1.2)
+	}
+	100% {
+		transform: scale(1.15)
+	}
+}
+@keyframes ItemHover {
+	0% {
+		transform: scale(1)
+	}
+	50% {
+		transform: scale(1.15)
+	}
+	100% {
+		transform: scale(1.05)
+	}
+}
+@-webkit-keyframes ItemUnhover {
+	0% {
+		transform: scale(1.15)
+	}
+	50% {
+		transform: scale(0.85)
+	}
+	100% {
+		transform: scale(1)
+	}
+}
+@keyframes ItemUnhover {
+	0% {
+		transform: scale(1.15)
+	}
+	50% {
+		transform: scale(0.85)
+	}
+	100% {
+		transform: scale(1)
+	}
+}
+
+.xserver {
+    transition: all 0.9s;
+    -webkit-animation-name: ItemUnhover;
+    animation-name: ItemUnhover;
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s;
+  transition: color 0.3s;
+}
+
+.xserver:hover {
+	-webkit-animation-name: ItemHover;
+	animation-name: ItemHover;
+	-webkit-animation-duration: 0.9s;
+	animation-duration: 0.9s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+      color: #fff;
+}
+
+.xserver:active {
+	-webkit-animation-name: ItemHover;
+	animation-name: ItemHover;
+	-webkit-animation-duration: 0.9s;
+	animation-duration: 0.9s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+      color: #fff;
+}
+.xbox.xbox_drops > .xbox__header {
+  text-align: center;
+  font-weight: 450;
+}
+.btn+.btn {
+    margin-left: 0px;
+}
+.xbox.xbox_drops > .xbox__header {
+    padding: 15px 15px 0px 15px!important;
+}

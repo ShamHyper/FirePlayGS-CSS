@@ -1,3 +1,5 @@
+/*PRE RELIZE VERSION! BUGS MAYBE!*/
+
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   color: #ffffff;
   background: #292929;
@@ -303,12 +305,7 @@ background-color: #FF0000db !important;
   /*! background-size: 40px 40px; */
   box-shadow: 5px 0px 10px 4px #FF0000db;
 }
-.btn-success {
-  color: #fff;
-  background-color: #FF0000db;
-  border-color: #FF0000db;
-  text-shadow: 0 1px 1px rgba(0,0,0,.3);
-}
+
 .dropdown-menu {
   background: #282828;
 }
@@ -317,8 +314,8 @@ width: 215px;
 height: 54px;
 float: center;
 }
-.btn-success-menu{color: #fff;background-color: #ff9100;border-color:#ff9100}
-.btn-secondary-menu{color:#fff;background-color:#ff9100;border-color:#ff9100}
+.btn-success-menu{color: #fff;background-color: #ff0000;border-color:#ff0000}
+.btn-secondary-menu{color:#fff;background-color:#ff0000;border-color:#ff0000}
 .btn-secondary-menu:hover{box-shadow: 0 0 2px 2px #292525}
 .btn-success-menu:hover{box-shadow: 0 0 2px 2px #292525}
 .modalContent {
@@ -480,12 +477,7 @@ font-weight: 450;
 .xbox.xbox_drops > .xbox__header {
   padding: 15px 15px 0px 15px!important;
 }
-.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
-  color: #fff;
-  background-color: #ca211182!important;
-  border-color: #000000!important;
-  text-shadow: 0 1px 1px rgba(0,0,0,.3);
-}
+
 .gs-loader .gs-loader-inner .spi {
   width: 150px;
   height: 150px;
@@ -507,7 +499,25 @@ font-weight: 450;
     margin-left: 0px !important;
   
 }
-.btn-default {
+
+.btn-default.active.focus, 
+.btn-default.active:focus, 
+.btn-default.active:hover, 
+.btn-default:active, 
+.btn-default:active.focus, 
+.btn-default:active:focus, 
+.btn-default:active:hover, 
+.btn-default:focus, 
+
+.open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+  color: #fff;
+  background-color: #ff0000!important;
+  border-color: #ff000000!important;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  border-radius: 7px;
+}
+
+.btn-default, .btn-success {
   
 color: white;
 background: rgb(0 0 0 / 7%);
@@ -516,7 +526,7 @@ font-size: 25px !important;
   
 }
 
-.btn-default:hover {
+.btn-default:hover, .btn-success:hover {
 
 color: #ff0000;
 background: #333;
@@ -525,7 +535,7 @@ font-size: 25px !important;
   
 }
 
- .btn-default:focus {
+ .btn-default:focus, .btn-success:focus {
 box-shadow : 0 0 40px 0 #FF0000;
 background: rgb(193 31 31);
 font-family: system-ui ;
@@ -534,14 +544,14 @@ font-size: 25px !important;
   
 }
 
-.btn-default.active, .btn-default.active:focus {
+.btn-default.active, .btn-default.active:focus, .btn-success.active, .btn-success.active:focus {
 color: #fff;
 background: #ff0000db;
 text-shadow: 0 1px 1px rgba(0,0,0,.4);
 box-shadow : 0 0 40px 0 #FF0000;
 }
 
-.btn-default.active:hover {
+.btn-default.active:hover, .btn-success.active:hover {
   color: #fff;
   background: #d614018f;
   text-shadow: 0 1px 1px rgba(0,0,0,.4);
@@ -549,21 +559,59 @@ box-shadow : 0 0 40px 0 #FF0000;
   
 }
 
-.btn-default:active:focus,.btn-default:active:hover {
+.btn-default:active:focus,.btn-default:active:hover, .btn-success:active:focus, .btn-success:active:hover, .btn-default:active:hover:focus  {
   color: #fff;
   background: #ff0000;
   text-shadow: 0 1px 1px rgba(0,0,0,.4);
   box-shadow : 0 0 40px 0 #FF0000;
 }
 
+.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
+  color: #fff;
+  background: #ff0000;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  box-shadow : 0 0 30px 0 #FF0000;
+}
 .btn+.btn {
   margin-left: 26px; /* растояние между кнопок в store-categories */
 }
 
+.btn-success.active.focus, 
+.btn-success.active:focus, 
+.btn-success.active:hover, 
+.btn-success:active, 
+.btn-success:active.focus, 
+.btn-success:active:focus, 
+.btn-success:active:hover, 
+.btn-success:focus, 
+.btn-success:hover, 
+.open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
+  color: #fff;
+  background-color: #ff0000!important;
+  border-color: #ff000000!important;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  border-radius: 7px;
+}
+
+.btn-success.active.focus, 
+.btn-success.active:focus, 
+.btn-success.active:hover, 
+.btn-success:active, 
+.btn-success:active.focus, 
+.btn-success:active:focus, 
+.btn-success:active:hover,
+.open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
+  color: #fff;
+  background-color: #ad0000!important;
+  border-color: #ff000000!important;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  border-radius: 7px;
+  box-shadow : 0 0 45px 0 #FF0000!important;
+}
 
 /* округлость кнопок в store-categories */
 
-.btn-default:active:focus,.btn-default:active:hover, .btn-default.active:hover, .btn-default.active, .btn-default.active:focus, .btn-default:focus, .btn-default:hover, .btn-default {
+.btn-default:active:focus,.btn-default:active:hover, .btn-default.active:hover, .btn-default.active, .btn-default.active:focus, .btn-default:focus, .btn-default:hover, .btn-default, .btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
 
   border-radius: 7px;
 
